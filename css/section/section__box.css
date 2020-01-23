@@ -1,0 +1,27 @@
+.section__box {
+  position: relative;
+  padding: .2rem 2rem;
+  margin: 2.5rem 0;
+  background: #c4c4c4
+}
+
+.section--rounding .section__box {
+  border-radius: 8px;
+}
+
+.section__box--darken {
+  background: #5b5b5b;
+  color: #fff;
+}
+
+.section__box--reversed p {
+  text-align: right;
+}
+
+.section__box:first-of-type {
+  margin-top: 0;
+}
+
+.section__box:last-of-type {
+  margin-bottom: 0;
+}

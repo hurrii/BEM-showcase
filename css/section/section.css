@@ -1,0 +1,17 @@
+@import './section__heading.css';
+@import './section__title.css';
+@import './section__icon.css';
+@import './section__boxes.css';
+@import './section__box.css';
+
+.section {
+  width: 39rem;
+  margin: 1rem;
+  padding: 3.1rem 3.3rem 2.6rem;
+  border-radius: 8px;
+  background: #000
+}
+
+.section--gray {
+  background: #c4c4c4;
+}

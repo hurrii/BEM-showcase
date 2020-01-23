@@ -1,0 +1,20 @@
+.section__icon {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.section__icon--dgray {
+  fill: #5b5b5b;
+}
+
+.section__icon--white {
+  fill: #fff;
+}
+
+.section__box--reversed .section__icon, .section__heading .section__icon {
+  left: 2rem;
+}

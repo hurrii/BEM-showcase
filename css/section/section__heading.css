@@ -1,0 +1,11 @@
+.section__heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1.7rem;
+  background: #fff;
+}
+
+.section__heading--rounded {
+  border-radius: 8px;
+}
